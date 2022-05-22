@@ -1,0 +1,107 @@
+#root, #wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 4rem;
+}
+
+h2 {
+  width: 100%;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+#virtues h2 {
+  color: black;
+}
+
+button {
+  min-height: 2.2rem;
+}
+
+#message {
+  padding-top: 1rem;
+  text-align: center;
+  min-height: 3rem;
+  min-width: 100%;
+  font-size: 1rem;
+  color: white;
+  background-color: #14213d;
+}
+
+input:active, input:focus {
+  box-shadow: 0 0 5px #fca311;
+  border: 1px solid #fca311;
+}
+
+form {
+  width: 400px;
+  line-height: 2.5rem;
+  padding: 0.55rem;
+  background-color: #003459;
+  border: 1px solid #fca311;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+input {
+  padding-left: 0.5rem;
+  margin-bottom: 1rem;
+  outline: none;
+  width: 100%;
+  height: 2.4rem;
+}
+
+form button {
+  width: 100%;
+}
+
+#logout {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+#spinner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  margin-top: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  color: #adadad;
+}
+
+table, td {
+  text-align: center;
+  border: 1px solid black;
+}
+
+#virtues-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+
+.square {
+  text-align: center;
+  border: 1px solid black;
+  width: 12%;
+}
+
